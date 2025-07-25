@@ -1,0 +1,443 @@
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared styles */
+body{
+    background-color: rgba(234, 239, 240, 0.622);
+}
+section{
+  width: 80%;
+  margin: 0 auto;
+}
+
+
+/* navbar design */
+nav{
+  width: 80%;
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-between;
+}
+nav img{
+    max-width: 100px;
+}
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+nav li{
+    list-style:none;
+}
+nav li img {
+  width:22px;
+  margin-right: 5px;
+}
+nav a{
+    text-decoration: none;
+}
+.link-1{
+  font-size:16px ;
+  font-weight:700 ;
+  color: #252432;
+
+}
+.link-2,.link-3{
+     font-size:16px ;
+  font-weight:400 ;
+  color: #8987A1;
+
+}
+.link-4{
+        font-size:16px ;
+  font-weight:400 ;
+  color: #000000;
+
+}
+/* banner desing */
+.banner{
+  display: flex;
+   gap: 400px;
+    margin: 50px auto;
+  /* display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 400px;
+  margin: 50px auto; */
+}
+.banner-img{
+  grid-area:banner-img;
+  width: 40vw;
+}
+.banner-content{
+  grid-area: banner-content;
+}
+.banner-header{
+    font-size:65px ;
+  font-weight:700 ;
+  color: #000000;
+ 
+
+}
+.banner-header span{
+font-size:65px ;
+  font-weight:700 ;
+  color: #E95A08;
+}
+.banner-description{
+    text-align: justify;
+font-size:22px ;
+  font-weight:400 ;
+  color: rgba(0, 0, 0, 0.5);
+ 
+
+}
+
+/* Plants section */
+.plants{
+  margin: 150px auto;
+  justify-content: center;
+
+}
+.plants-header{
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 55%;
+  text-align: center;
+}
+.plants h3{
+  margin-bottom: 0;
+  font-size:50px ;
+  font-weight:700 ;
+  color: #000000;
+}
+.plants h3 span{
+  font-size:50px ;
+  font-weight:700 ;
+  color: #E95A08;
+}
+.plants-header-description{
+  margin-top: 0;
+  font-size:22px ;
+  font-weight:400 ;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 20px;
+  row-gap: 50px;
+  margin-top: 70px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.card img{
+  width: 360px;
+  margin-bottom: 20px;
+}
+.flower{
+  margin-bottom: 10px;
+  font-size:22px ;
+  font-weight:500 ;
+  color: #111111;
+}
+.price{
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size:22px ;
+  font-weight:700 ;
+  color: #111111;
+}
+.card-container button{
+  width: 360px;
+  background-color:#E95A08 ;
+  color: #ffffff;
+   font-size:16px ;
+  font-weight:600 ;
+  border: none;
+  padding: 10px 30px;
+}
+/* 4. Plants Lover Section */
+.plants-lover{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 100px;
+}
+.plants-lover img{
+  width: 90%;
+}
+.plants-lover h3{
+  width: 60%;
+  color: #000000;
+   font-size:50px ;
+  font-weight:700 ;
+}
+.plants-lover ul{
+  
+}
+.plants-lover li{
+  text-align: justify;
+  margin: 50px 0;
+   color: #00000050;
+   font-size: 24px ;
+  font-weight:400 ;
+}
+  /* Latest Deal Section  */
+
+  .latest-deal{
+  margin: 150px auto;
+  justify-content: center;
+
+}
+.deal{
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 55%;
+  text-align: center;
+}
+  
+  .latest-deal h3{
+  margin-bottom: 0;
+  font-size:50px ;
+  font-weight:700 ;
+  color: #000000;
+}
+.latest-deal h3 span{
+  font-size:50px ;
+  font-weight:700 ;
+  color: #E95A08;
+}
+.deal-flowers{
+
+
+}
+/* 5. Join Section */
+
+.join{
+  background-image:url(assets/news-letter-bg.png);
+  background-size: cover;
+  width: 100vw;
+  height:800px;
+} 
+.join-items{
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  padding-top: 300px;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  margin: 300px auto;
+}
+.join-header{
+  color: #ffffff;
+   font-size:50px ;
+  font-weight:700 ;
+}
+.join-items-input{
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+  width: 60%;
+  align-content: center;
+}
+.join input{
+  border: none;
+  color: #00000050;
+   font-size:16px ;
+  font-weight:400 ;
+}
+#email{
+    padding: 15px 450px 15px 15px;
+  background-color: #ffffff;
+}
+#submit{
+  padding: 15px 30px;
+  background-color: #E95A08;
+  color: #ffffff;
+}
+/* footer design */
+footer{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  margin: 50px 10vw;
+}
+footer p{
+  color: #00000050;
+   font-size:22px ;
+  font-weight:400 ;
+  width: 70%;
+}
+
+.footer-item-3,.footer-item-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.footer-item-4{
+  display: flex;
+  justify-content:center;
+  justify-items:center;
+  align-items: start;
+  gap: 30px;
+}
+footer li{
+      list-style: none;
+      margin-top: 20px;
+      color: #6B7280;
+   font-size:16px ;
+  font-weight:400 ;
+}
+#twitter{
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+/* navbar design */
+/* nav{
+  width: 85%;
+  margin: 0 auto;
+} */
+nav img{
+    max-width: 80px;
+}
+.link-1,.link-2,.link-3{
+  display: none;
+}
+/* banner desing */
+.banner{
+  gap: 30px;
+  display: grid;
+  grid-template-areas: 
+  "banner-img"
+  "banner-content"
+  ;
+} 
+.banner-img{
+  width:100%;
+  margin: 0;
+  margin-bottom: 0;
+}
+.banner-header{
+  margin-top: 0;
+    font-size:24px ;
+}
+.banner-header span{
+font-size:24px ;
+}
+.banner-description{
+font-size:14px;
+}
+/* Plants section */
+.plants{
+  margin: 30px;
+}
+.plants h3,.plants h3 span{
+  font-size:24px ;
+}
+.plants-header-description{
+  font-size:14px ;
+}
+.plants-header{
+  max-width: 100%;
+}
+.card img{
+  width: 200px;
+
+}
+.card-container{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  }
+  .card{
+    max-width: 200px;
+  }
+  .card-container button{
+  width: 200px;
+   font-size:16px ;
+  padding: 10px 10px;
+}
+
+
+
+
+  .plants-lover{
+  grid-template-columns: repeat(1,1fr);
+}
+.plants-lover img{
+  width: 100%;
+
+}
+.plants-lover h3{
+  font-size: 24px;
+  width: 90%;
+}
+.plants-lover li{
+  font-size: 14px;
+  margin: 0px 0;
+}
+
+
+ 
+  .join{
+    height: 200px;
+  }
+ 
+  .join h3{
+    margin-left: 40px;
+    
+  }
+  .join-header{
+    font-size: 20px;
+  }
+  .join-items{
+    padding-top: 20px;
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+  #email{
+    font-size: 16px;
+    padding: 10px 20px;
+    margin-left:-20px;
+  }
+  #submit{
+    font-size: 16px;
+    padding: 10px 3px;
+  }
+
+
+
+  footer{
+  grid-template-columns: repeat(1,1fr);
+  margin: 50px 10vw;
+  justify-content: left;
+  }
+  .footer-item-4{
+    justify-items: left;
+    justify-content:left ;
+  }
+}
